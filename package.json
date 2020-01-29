@@ -1,0 +1,32 @@
+{
+  "name": "application",
+  "version": "1.0.0",
+  "description": "webApplicationMeanStack",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "cors": "*",
+    "express": "*",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
+    "nodemon": "^2.0.2",
+    "npm": "^6.13.6",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/terletski/application.git"
+  },
+  "author": "Eugene Terletski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/terletski/application/issues"
+  },
+  "homepage": "https://github.com/terletski/application#readme"
+}
